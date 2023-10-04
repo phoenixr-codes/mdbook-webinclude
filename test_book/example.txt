@@ -1,0 +1,9 @@
+Line 1
+Line 2
+Line 3
+Line 4 - ANCHOR: foo
+Line 5
+Line 6 - ANCHOR: bar
+Line 7 - ANCHOR_END: foo
+Line 8
+Line 9 - ANCHOR_END: bar
