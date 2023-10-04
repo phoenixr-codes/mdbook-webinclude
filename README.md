@@ -39,10 +39,10 @@ lays in a different repository than the actual program.
 {{#webinclude https://example.org/document.md}}
 ```
 
-<div class="warning">
-Keep in mind that header levels remain the same and are not adapted to the current
-chapter's header level.
-</div>
+> **Warning**
+> 
+> Keep in mind that header levels remain the same and are not adapted to the current
+> chapter's header level.
 
 
 ### Include Text
@@ -105,17 +105,17 @@ Then in the book, all you have to do is:
 ````hbs
 Here is a component:
 ```rust,no_run,noplayground
-{{#webinclude file.rs:component}}
+{{#webinclude https://example.org/main.rs component}}
 ```
 
 Here is a system:
 ```rust,no_run,noplayground
-{{#webinclude file.rs:system}}
+{{#webinclude https://example.org/main.rs system}}
 ```
 
 This is the full file.
 ```rust,no_run,noplayground
-{{#webinclude file.rs:all}}
+{{#webinclude https://example.org/main.rs all}}
 ```
 ````
 
