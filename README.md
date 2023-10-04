@@ -1,6 +1,6 @@
 # mdBook `webinclude` Preprocessor
 
-[![Crates.io (latest)](https://img.shields.io/crates/dv/mdbook-webinclude)](https://crates.io/crates/mdbook-webinclude)
+[![Crates.io (latest)](https://img.shields.io/crates/v/mdbook-webinclude)](https://crates.io/crates/mdbook-webinclude)
 
 The `webinclude` preprocessor works similar to the built-in
 [`include`](https://rust-lang.github.io/mdBook/format/mdbook.html#including-files)
