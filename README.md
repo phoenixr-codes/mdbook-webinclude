@@ -4,10 +4,10 @@
 
 The `webinclude` preprocessor works similar to the built-in
 [`include`](https://rust-lang.github.io/mdBook/format/mdbook.html#including-files)
-link which inserts (portions of) local files in a section within the book. The same
+directive which inserts (portions of) local files in a section within the book. The same
 can be achieved with `webinclude` however instead of specifying a path to the file
-a URL can be used. The source of that URL is obtained an further processed like
-with `include`.
+a URL can be used. The source of that URL is obtained and further processed as
+it's done with `include`.
 
 
 ## Installation & Setup
